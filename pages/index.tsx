@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Footer from '@/component/footer'
+import Link from 'next/link'
 
 
 export default function Home() {
@@ -17,10 +18,33 @@ export default function Home() {
         <div className={styles.top}>
           <Image className={styles.top_image} src="/top_image.jpg" layout='fill'
             objectFit='cover' alt="top image" priority={true} />
-            <h1 className={styles.top_h1}>3b46 official site</h1>
+          <h1 className={styles.top_h1}>3b46 official site</h1>
+        </div>
+        <div className={styles.creation}>
+          <h2 className={styles.creation_title}>Creation</h2>
+          <div className={styles.creation_contents}>
+            <div className={styles.creation_header}>
+              <div className={styles.creation_header_left}>
+                <div className={styles.creation_stick} />
+                <h3 className={styles.creation_index}>A</h3>
+              </div>
+              <div className={styles.creation_header_right}><div className={styles.creation_stick} /></div>
+            </div>
+            <Link href="/">
+              <div className={styles.creation_content}>
+                <div className={styles.creation_content_left}>
+                  <div className={styles.creation_image_color} />
+                  <h4 className={styles.creation_name}>茜 Akane</h4>
+                </div>
+                <div className={styles.creation_content_right}>
+                  <Image src="/top_image.jpg" layout="fill" objectFit="cover" alt="content image" style={{ borderRadius: "10px" }} quality={1} />
+                </div>
+              </div>
+            </Link>
+          </div>
         </div>
       </main>
-      <Footer/>
+      <Footer />
     </>
   )
 }
