@@ -95,6 +95,25 @@ export default function Home() {
         </div>
         <h1 className={styles.top_h1}>3b46 official site</h1>
       </div>
+      <div className={styles.profile}>
+        <div className={styles.profile_left}>
+          <Image
+            className={styles.profile_img}
+            src="/logo.svg"
+            alt="logo"
+            fill
+            sizes="100vw"
+            style={{
+              objectFit: "cover"
+            }} /></div>
+        <div className={styles.profile_right}>
+          <h2 className={styles.profile_h2}>錆白/Sabishiro</h2>
+          <p className={styles.profile_job}>illustration/character design</p>
+          <p className={styles.profile_description}>フリーイラストレーター<br/>キャラクターデザインをメインに幅広く活動中<br/>ご依頼に関しましては納期・ご予算を記載の上、下記アドレスにお願いいたします<br/><br/>当サイトに記載されているイラストの無断転載使用はご遠慮ください
+          </p>
+          <a href="mailto:0513.yuru@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.profile_email}>0513.yuru@gmail.com</a>
+        </div>
+      </div>
       <div className={styles.creation}>
         <h2 className={styles.creation_title}>Creation</h2>
         <div className={styles.creation_contents}>
