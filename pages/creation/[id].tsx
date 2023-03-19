@@ -11,18 +11,18 @@ export default function Creation() {
   const [target, setTarget] = useState<any>({
     id: 0,
     image_length: 0,
-    name: "a",
-    Furigana: "a",
-    color: "a",
-    age: "a",
-    birthday: "a",
-    height: "a",
-    job: "a",
-    Species: "a",
+    name: "Loading...",
+    Furigana: "Loading...",
+    color: "Loading...",
+    age: "Loading...",
+    birthday: "Loading...",
+    height: "Loading...",
+    job: "Loading...",
+    Species: "Loading...",
     UkeSeme: "",
     verse: "",
-    description: "a",
-    quotations: "a",
+    description: "Loading...",
+    quotations: "Loading...",
     CP: null,
     siblings: null
   });
@@ -83,6 +83,34 @@ export default function Creation() {
     }
     return <div className={styles.image_wrapper}>{list}</div>
   }
+
+  function listSiblings() {
+    let list:any = []
+    for (let i = 0; i < target.siblings.length; i++)
+    {
+      list.push(<div className={styles.sub_wrap}>
+        <div className={styles.sub_left}>
+          <Image
+            id="image"
+            src={`${imageURL}/siblings${i + 1}.JPG`}
+            alt="content image"
+            quality={100}
+            fill
+            sizes="100vw"
+            priority={false}
+            style={
+              { objectFit: "contain" }
+            } />
+        </div>
+        <div className={styles.sub_right}>
+          <h3 className={styles.sub_name}>兄妹 {target.siblings[i].name}</h3>
+            <p className={styles.sub_setting_p}>{target.siblings[i].relationship}</p>
+            <a href='' className={styles.sub_a} >作　しうぐみ(Twitterリンク)</a>
+        </div>
+      </div>)
+    }
+    return list;
+  }
   return <>
     <Head>
       <title>{target.name}</title>
@@ -91,49 +119,72 @@ export default function Creation() {
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <main className={styles.main}>
-      <div className={styles.left}>
-        {listImage()}
-        <div className={styles.page}>
-          <div className={styles.arrow} onClick={() => {
-            if (currentImagePage - 1 > 0) {
-              setCurrentImagePage(currentImagePage - 1)
-            }
-          }}>
-            <Image
-              src={`/arrow_2.svg`}
-              alt="arrow image"
-              width={20}
-              height={30} />
+      <div className={styles.content_wrap}>
+        <div className={styles.left}>
+          {listImage()}
+          <div className={styles.page}>
+            <div className={styles.arrow} onClick={() => {
+              if (currentImagePage - 1 > 0) {
+                setCurrentImagePage(currentImagePage - 1)
+              }
+            }}>
+              <Image
+                src={`/arrow_2.svg`}
+                alt="arrow image"
+                width={20}
+                height={30} />
+            </div>
+            {currentImagePage} / {target.image_length}
+            <div className={styles.arrow} onClick={() => {
+              if (currentImagePage + 1 <= target.image_length) {
+                setCurrentImagePage(currentImagePage + 1)
+              }
+            }}>
+              <Image
+                src={`/arrow_1.svg`}
+                alt="arrow image"
+                width={20}
+                height={30} />
+            </div>
           </div>
-          {currentImagePage} / {target.image_length}
-          <div className={styles.arrow} onClick={() => {
-            if (currentImagePage + 1 <= target.image_length) {
-              setCurrentImagePage(currentImagePage + 1)
-            }
-          }}>
-            <Image
-              src={`/arrow_1.svg`}
-              alt="arrow image"
-              width={20}
-              height={30} />
+        </div>
+        <div className={styles.right}>
+          <div className={styles.name}>
+            <div className={styles.image_color} id="image_color" />
+            <div className={styles.name_wrapper}>
+              <h1 className={styles.name_h1}>{target.name}</h1>
+              <h2 className={styles.name_h2}>{target.Furigana}</h2>
+            </div>
           </div>
+          {genProfile()}
+          <div className={styles.setting}>
+            <h3 className={styles.setting_h3}>設定</h3>
+            <p className={styles.setting_p}>{target.description.split(/(\n)/).map((v: string, i: number) => (i & 1 ? <br key={i} /> : v))}</p>
+          </div>
+          <h4 className={styles.quotations}>{target.quotations.split(/(\n)/).map((v: string, i: number) => (i & 1 ? <br key={i} /> : v))}</h4>
         </div>
       </div>
-      <div className={styles.right}>
-        <div className={styles.name}>
-          <div className={styles.image_color} id="image_color" />
-          <div className={styles.name_wrapper}>
-            <h1 className={styles.name_h1}>{target.name}</h1>
-            <h2 className={styles.name_h2}>{target.Furigana}</h2>
-          </div>
+      {target.CP && <div className={styles.sub_wrap}>
+        <div className={styles.sub_left}>
+          <Image
+            id="image"
+            src={`${imageURL}/CP.JPG`}
+            alt="content image"
+            quality={100}
+            fill
+            sizes="100vw"
+            priority={false}
+            style={
+              { objectFit: "contain" }
+            } />
         </div>
-        {genProfile()}
-        <div className={styles.setting}>
-          <h3 className={styles.setting_h3}>設定</h3>
-          <p className={styles.setting_p}>{target.description.split(/(\n)/).map((v: string, i: number) => (i & 1 ? <br key={i} /> : v))}</p>
+        <div className={styles.sub_right}>
+          <h3 className={styles.sub_name}>CP {target.CP.name}</h3>
+            <p className={styles.sub_setting_p}>{target.CP.description.split(/(\n)/).map((v: string, i: number) => (i & 1 ? <br key={i} /> : v))}</p>
+            <a href='' className={styles.sub_a} >作　しうぐみ(Twitterリンク)</a>
         </div>
-        <h4 className={styles.quotations}>{target.quotations}</h4>
-      </div>
+      </div>}
+      {target.siblings && listSiblings()}
     </main>
     <Footer />
   </>;

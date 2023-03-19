@@ -1,10 +1,14 @@
 .main {
   background-color: #363633;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   width: 100vw;
   color: white;
-  display: flex;
-  justify-content: space-between;
+}
+
+.content_wrap {
+	display: flex;
+	justify-content: space-between;
 }
 
 .left {
@@ -106,4 +110,43 @@
 	margin-top: 30px;
 	font-size: 20px;
 	font-weight: 300;
+}
+
+.sub_wrap {
+	margin-top: 80px;
+	padding-bottom: 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.sub_left {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	margin-left: 70px;
+}
+
+.sub_right {
+	margin-right: 270px;
+}
+
+.sub_name {
+	font-size: 30px;
+	font-weight: 200;
+}
+
+.sub_setting_p {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-weight: 200;
+	font-size: 15px;
+}
+.sub_a {
+	font-weight: 200;
+	text-decoration: underline;
+	color: white;
+}
+.sub_a:visited {
+	color: white;
 }
