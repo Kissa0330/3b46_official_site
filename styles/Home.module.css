@@ -8,6 +8,12 @@
   z-index: 0;
 }
 
+.top_image_wrapper {
+  letter-spacing: 0;
+  word-spacing: 0;
+  font-size: 0;
+}
+
 .top_h1 {
   z-index: 1;
   position: relative;
@@ -74,18 +80,18 @@
 }
 
 .creation_name {
-	font-size: 40px;
-	font-weight: 200;
-	margin-left: 25px;
+  font-size: 40px;
+  font-weight: 200;
+  margin-left: 25px;
 }
 
 a:visited .creation_name {
-	color: white;
+  color: white;
 }
 
 .creation_content_right {
   position: relative;
   width: 220px;
   height: 220px;
-  margin-right: 60px;
+  margin-right: 150px;
 }

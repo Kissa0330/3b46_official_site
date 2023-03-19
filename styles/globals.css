@@ -8,6 +8,10 @@ body {
 	color: #363633;
 }
 
+img {
+	vertical-align:bottom;
+}
+
 a:visited {
 	color: #363633;
 }
