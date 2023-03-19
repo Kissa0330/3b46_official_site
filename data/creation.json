@@ -1,0 +1,437 @@
+{
+  "creations": [
+    {
+      "image_length": 2,
+      "name": "茜",
+      "Furigana": "Akane",
+      "color": "#b7282e",
+      "age": "不明",
+      "birthday": "不明",
+      "height": "178cm",
+      "job": "無職",
+      "Species": "鬼",
+      "UkeSeme": null,
+      "verse": null,
+      "description": "本人曰く、大昔大悪党の鬼神だったらしい\nタナトフィリア（死生愛者）\n現在は封印された後、魂だけ封印から解かれ蘇芳彩斗（すおう あやと）にとりついている\n彩斗のことは、面白い奴だとは思っているがよく馬鹿にされている\n彩斗意外に馬鹿にされるとキレる単細胞で現代のものに疎い性格",
+      "quotations": "「俺はばかじゃねぇ！！」",
+      "CP": null,
+      "siblings": null
+    },
+    {
+		"image_length": 3,
+      "name": "卯ノ花 冬夜",
+      "Furigana": "Unohana Toya",
+      "color": "#f7fcfe",
+      "age": "20",
+      "birthday": "5/6",
+      "height": "176cm",
+      "job": "医大生",
+      "Species": "人間",
+      "UkeSeme": "攻",
+      "verse": null,
+      "description": "吸血鬼の黒崎おりと血の契約を結んでいる\n基本的にやさしいが手段は選ばないので稀に残虐なときがある\n生き物が好きで友人関係も良好だが、兄が頭を務める暴力団の幹部という裏の顔がある\nすべて吸血鬼の研究のためらしい\n\n※血の契約とは吸血鬼がむやみに人間から吸血しないように作られた制度\n契約した吸血鬼は契約者からしか吸血できない",
+      "quotations": "「僕は研究できればそれでいいよ」",
+      "CP": {
+        "name": "黒崎おり",
+        "description": "吸血鬼\n冬夜の血しか吸えない"
+      },
+      "siblings": null
+    },
+    {
+		"image_length": 1,
+      "name": "楝 柘榴",
+      "Furigana": "Ouchi Zakuro",
+      "color": "#C92E36",
+      "age": "24",
+      "birthday": "12/28",
+      "height": "182cm",
+      "job": "副社長",
+      "Species": "人間",
+      "UkeSeme": null,
+      "verse": null,
+      "description": "楝家の長男で次期資産家の社長\n現在は父が社長を務めているが、兄弟のことを駒のように使う父親のことが嫌い\n弟や妹たちのことは大好きだが、好きすぎてとても冷たい態度をとってしまう\nそのたびに自室で反省をしている",
+      "quotations": "「・・・父親ずらしやがって」",
+      "CP": null,
+      "siblings": [
+        {
+          "relationship": "長女",
+          "name": "せいらん"
+        },
+        {
+          "relationship": "三男",
+          "name": "なずな"
+        }
+      ]
+    },
+    {
+		"image_length": 4,
+      "name": "折神 呂彩",
+      "Furigana": "Origami Roiro",
+      "age": "17",
+      "color": "#0c0c0c",
+      "birthday": "9/1",
+      "height": "178cm",
+      "job": "学生／妖怪退治特別組織",
+      "Species": "半人間",
+      "UkeSeme": "攻",
+      "verse": null,
+      "description": "超大手極道ヤクザの家の子\n 父親からかなり厳しく育てられており、小中学校には通えず家で家庭教師と勉強していた\n大妖怪・玉藻前から気に入られており死ねない呪い、妖怪が見え過ぎる呪いがかけられているが本人は気づいていない\n玉藻前の呪いの効果で力がすべて底上げされているため妖怪退治特別組織が手をつけられないくらい最強\n呂彩自身他人に縛られるのが嫌いなので組織の犬になる気はない\n彼氏のみかちゃんのことが大好き",
+      "quotations": "「俺がお前のために妖怪を倒したとでも？自分のストレス発散のためだよ」",
+      "CP": {
+        "name": "夏橙　みか",
+        "description": "人間\n妖怪退治組織"
+      },
+      "siblings": null
+    },
+    {
+		"image_length": 3,
+      "name": "燎 透華",
+      "Furigana": "Kagari Toka",
+      "color": "#493759",
+      "age": "18",
+      "birthday": "8/1",
+      "height": "178cm",
+      "job": "学生／死体解体屋",
+      "Species": "人間",
+      "UkeSeme": "攻",
+      "verse": "α",
+      "description": "白下 月馨（しらした るか）の運命の番\nとても大きな財閥の跡取り\n学校へ行く際はフェロモンに当てられないように強力な薬を服用しているため常に吐き気と眠気と戦っている副作用で香水や食事の香りでしんどくなるので常にマスクをしている\n運命の番であるルカのうなじに歯形はまだつけていない\n死体解体屋は趣味でやっているため深い感情はない",
+      "quotations": "「俺がお前のために妖怪を倒したとでも？自分のストレス発散のためだよ」",
+      "CP": {
+        "name": "白下 月馨",
+        "description": "人間と蜘蛛のハーフ\nΩ"
+      },
+      "siblings": null
+    },
+    {
+		"image_length": 1,
+      "name": "鬼柳 ツツジ",
+      "Furigana": "Kiyanagi Tutuji",
+      "color": "#E02C87",
+      "age": "17",
+      "birthday": "不明",
+      "height": "175cm",
+      "job": "学生",
+      "Species": "人間",
+      "UkeSeme": "リバ",
+      "verse": null,
+      "description": "酒蔵の跡取り息子　双子の兄がいる\nかなり自由に育てられたため気分やな性格\n兄のこと以外興味がなく、右目が義眼で何も見えていない\n髪の毛は元は白だが兄の瞳の色と同じ色を染色した",
+      "quotations": "「瑠璃がいてくれればそれでいい」",
+      "CP": {
+        "name": "鬼柳 瑠璃",
+        "description": "人間\n双子の兄"
+      },
+      "siblings": null
+    },
+    {
+		"image_length": 1,
+      "name": "神来社 神無",
+      "Furigana": "Kanna Karaito",
+      "color": "#e95464",
+      "age": "18",
+      "birthday": "10/5",
+      "height": "180cm",
+      "job": "学生",
+      "Species": "人間",
+      "UkeSeme": "受",
+      "verse": null,
+      "description": "孤児院育ち\n表立った理由としては実子の遊び相手という目的だが、実際は実子の体が生まれつき悪く、臓器移植のために神来社家に引き取られた後に無事臓器移植し成功\n実子、神来社神晴（からいと あおはる）からゆがんだ愛情を向けられているが気づいていない神晴のことは家族として好き",
+      "quotations": "「俺がなにしたっていうんだよ！！！！！」",
+      "CP": {
+        "name": "鬼柳 瑠璃",
+        "description": "人間\n双子の兄"
+      },
+      "siblings": null
+    },
+    {
+      "image_length": 2,
+      "name": "久墨 喪堕",
+      "Furigana": "Kusumi Sota",
+      "color": "#16160e",
+      "age": "不明",
+      "birthday": "不明",
+      "height": "170cm",
+      "job": "学生？",
+      "Species": "タコ",
+      "UkeSeme": "リバ",
+      "verse": null,
+      "description": "タコの妖怪\n強い妖怪ではないが玉藻前に呪われており、大好きな人間である蜂ヶ谷 琥珀（はちがや こはく）を殺すと、琥珀と出会った時間軸にリセットされる\nタイムリープできることを理解してからは自分のほうに振り向いてくれない琥珀を無理やり振り向かせようと試行錯誤し、失敗するごとに殺してリセットしている\n無事に結ばれても玉藻前に記憶を消されリセットされるがもちろんその事実は知らない",
+      "quotations": "「なんで僕のこと好きになってくれないの？」",
+      "CP": {
+        "name": "蜂ヶ谷 琥珀",
+        "description": "人間\n健常者"
+      },
+      "siblings": null
+    },
+    {
+      "image_length": 2,
+      "name": "斉藤　ちひろ",
+      "Furigana": "Saito Chihiro",
+      "color": "#f2a0a1",
+      "age": "17",
+      "birthday": "5/12",
+      "height": "175cm",
+      "job": "学生",
+      "Species": "人間",
+      "UkeSeme": "攻",
+      "verse": null,
+      "description": "脚フェチの残念なイケメン\nばりばりの男子高校生でいつメンがいないとやる気が出ない体育の授業は美しい足をみる絶好のチャンス！同様の理由で体育祭が大好き世界一美脚な友人冴木 絢芽（さえき　あやめ）からは非常に気持ち悪がられているそして彼の弟、冴木  壱羽（さえき  いちは）とは、のちに付き合う関係になりそうな予感",
+      "quotations": "「さえちゃん今日こそ足見せてね♡」",
+      "CP": {
+        "name": "冴木 壱羽",
+        "description": "人間\n首フェチ"
+      },
+      "siblings": null
+    },
+    {
+      "image_length": 3,
+      "name": "白鈴  零也",
+      "Furigana": "Shirasuzu Reiya",
+      "color": "#ffffff",
+      "age": "21",
+      "birthday": "不明(覚えていない)",
+      "height": "不明(覚えていない)",
+      "job": "闇医者",
+      "Species": "人間",
+      "UkeSeme": "攻",
+      "verse": null,
+      "description": "特別な大きな施設の中に閉じ込められており、その中で闇医者として働いている\n記憶が一日しか持続できないが、仕事のことなどはメモなどに残し次の日を迎えるため何とかなっている\n施設内に預かり屋さんをしている彼氏がいる彼のことが大好き\n俺がルール！なマイペースな性格で常に周りに人がいる人気者",
+      "quotations": "「だって預かり屋さんは俺のこと大好きだもんねーー！」",
+      "CP": {
+        "name": "陽(ひなた)",
+        "description": "預かり屋さん\n人間"
+      },
+      "siblings": null
+    },
+    {
+      "image_length": 2,
+      "name": "蘇芳 彩斗",
+      "Furigana": "Suou Ayato",
+      "color": "#7E2639",
+      "age": "17",
+      "birthday": "5/27",
+      "height": "168cm",
+      "job": "学生",
+      "Species": "人間",
+      "UkeSeme": null,
+      "verse": null,
+      "description": "チャイニーズマフィアの次期ボス\n現在は勢力を拡大するために特攻隊長として日本に来ている\nネクロフィリアの死体愛好者で、抗争などで死んだ仲間や敵を持ち帰っては解剖してホルマリン漬けにしたりしているお気に入りがいくつかあるらしいが、それを知っているのは彩斗にとりついてる茜のみ\n基本的に優しく温厚な性格で人当たりがいいがとても強い",
+      "quotations": "「茜を最終的にコレクションに入れるのが今の夢かな」",
+      "CP": null,
+      "siblings": null
+    },
+    {
+      "image_length": 3,
+      "name": "多々良 澪",
+      "Furigana": "Tatara Mio",
+      "color": "#f5e56b",
+      "age": "17",
+      "birthday": "6/6",
+      "height": "176cm",
+      "job": "学生",
+      "Species": "人間",
+      "UkeSeme": null,
+      "verse": null,
+      "description": "基本的にとても温厚でいつメンの3人のことが大好き\nキレたら喧嘩っ早いので注意喧嘩自体すごく強い\n仲がいい人たちへのスキンシップがすごいため、たまにうざがられる\n橘 結鶴（たちばな ゆづる）とは従妹で、よくケンカを売られるが無視している結鶴や家族以外には女性恐怖症",
+      "quotations": "「今日は何して遊ぶー！？」",
+      "CP": null,
+      "siblings": null
+    },
+    {
+      "image_length": 1,
+      "name": "橘 結鶴",
+      "Furigana": "Tachibana Yuzuru",
+      "color": "#cbb994",
+      "age": "17",
+      "birthday": "6/6",
+      "height": "160cm",
+      "job": "学生",
+      "Species": "人間",
+      "UkeSeme": null,
+      "verse": null,
+      "description": "多々良 澪(たたら　みお)とは従妹\n基本的にさみしがりやで友達大好き最近いつメンの女の子たちに彼氏ができてしまいとてもさみしい思いをしているが、そんな結鶴にも最近彼氏ができたとか\n気の強い性格黙っていればとても美人",
+      "quotations": "「なんでみんな彼氏のとこ行っちゃうのーーー！！！？」",
+      "CP": null,
+      "siblings": null
+    },
+    {
+      "image_length": 3,
+      "name": "玉藻前",
+      "Furigana": "Tamamonomae",
+      "color": "#e8ecef",
+      "age": "不明",
+      "birthday": "不明",
+      "height": "不明",
+      "job": "ニート",
+      "Species": "狐の大妖怪",
+      "UkeSeme": "受",
+      "verse": null,
+      "description": "全知全能といえてしまうほどの知識を持っている\n年齢は数えるのをやめてしまったが、1000年は生きているらしい\nいろいろなところに顔を出しては引っ搔き回して暇をつぶして遊んでいる\n常人のまえに姿を表すことはないが、もし触れてしまったら死ぬらしい",
+      "quotations": "「人間、ボクと遊ばないかい？」",
+      "CP": {
+        "name": "曼（うつく）",
+        "description": "妖怪\n酒呑童子"
+      },
+      "siblings": null
+    },
+    {
+      "image_length": 1,
+      "name": "ちい",
+      "Furigana": "Chii",
+      "color": "#f3f3f3",
+      "age": "不明",
+      "birthday": "不明",
+      "height": "不明",
+      "job": "不明",
+      "Species": "猫又の妖怪",
+      "UkeSeme": "NL",
+      "verse": null,
+      "description": "もともとは真っ白の猫だったが、死後猫又として転生\n座敷童の女の子あんことともにのんびり時間を過ごしている\nとても元気で活発な男の子関西弁をしゃべる",
+      "quotations": "「ずーっと一緒って約束した！！！！」",
+      "CP": {
+        "name": "あんこ",
+        "description": "座敷童\nとってもかわいい"
+      },
+      "siblings": null
+    },
+    {
+      "image_length": 2,
+      "name": "月ヶ瀬 狼",
+      "Furigana": "Tsukigase Ro",
+      "color": "#e60033",
+      "age": "17",
+      "birthday": "10/23",
+      "height": "184cm",
+      "job": "学生/アイドル",
+      "Species": "人間",
+      "UkeSeme": "NL",
+      "verse": null,
+      "description": "最近人気がで始めた四人グループの地下アイドルの一人\nそれぞれ担当している動物があり、オオカミでイメージカラーは赤を担当\nアクロバットでファンサ上手ガチ恋勢がとても多い\n同じクラスでありファンの女の子、小牧羊（こまき よう）と付き合っているが、もちろん秘密",
+      "quotations": "「今日のライブも楽しんでいってな！」",
+      "CP": {
+        "name": "小牧 羊",
+        "description": "白くてまるで羊\n実は想像を絶するほどの狼のガチオタ"
+      },
+      "siblings": null
+    },
+    {
+      "image_length": 2,
+      "name": "五月七日 桃龍",
+      "Furigana": "Tsuyuri Tori",
+      "color": "#507ea4",
+      "age": "不明",
+      "birthday": "5/7",
+      "height": "174cm",
+      "job": "護衛／教育係",
+      "Species": "狛犬の獣人",
+      "UkeSeme": "受",
+      "verse": null,
+      "description": "代々四神：青龍に仕えている狛犬一族\n青龍の指示を受け青龍の加護を受けた蛇の一族にも仕えている\n桃龍は蛇の一族に仕えており、次期当主の護衛兼教育係を任されている\n本人は意欲的に仕事を全うしようと必死で頑張っている\n業務外では口が悪くかなり自分勝手",
+      "quotations": "「若、起床のお時間です」",
+      "CP": {
+        "name": "若様",
+        "description": "敬語で話してくれる"
+      },
+      "siblings": null
+    },
+    {
+      "image_length": 2,
+      "name": "濡羽 鳳",
+      "Furigana": "Nureba Ageha",
+      "color": "#000b00",
+      "age": "不明",
+      "birthday": "不明 ",
+      "height": "173cm 厚底履いて178cm ",
+      "job": "ニート",
+      "Species": "鶴",
+      "UkeSeme": "攻",
+      "verse": null,
+      "description": "元は北海道に住むただのタンチョウだったが、死後十二支の寅である白牙 零（はくが れい）にヒトガタにしてもらい、ヒトガタの動物たちが住まう場所に身をおいている\n極度のめんどくさがり屋でヘビースモーカーかわいい彼氏の雪柄 ひよ（ゆきつか　ひよ）が近くにいるときは煙草を吸わないようにしている関西弁でしゃべる ",
+      "quotations": "「・・・ほんまにだるいわ」",
+      "CP": {
+        "name": "雪柄 ひよ",
+        "description": "シマエナガ\nとってもかわいい"
+      },
+      "siblings": null
+    },
+    {
+      "image_length": 1,
+      "name": "白夜 虎春",
+      "Furigana": "Hakuya Koharu",
+      "color": "#007bbb",
+      "age": "17",
+      "birthday": "7/7",
+      "height": "180cm",
+      "job": "学生／モデル",
+      "Species": "人間",
+      "UkeSeme": "受",
+      "verse": null,
+      "description": null,
+      "CP": {
+        "name": "百瀬 獅子",
+        "description": "ピンクのライオン担当\n かわいい（こはる目線）"
+      },
+      "siblings": null
+    },
+    {
+      "image_length": 1,
+      "name": "ベル",
+      "Furigana": "Vell",
+      "color": "#c85554",
+      "age": "不明",
+      "birthday": "不明",
+      "height": "不明",
+      "job": "スパイ",
+      "Species": "悪魔",
+      "UkeSeme": "攻",
+      "verse": null,
+      "description": "ルシファーの血を引く悪魔\n天使とのハーフだが彼自身それをしらない\n謎が多い悪魔\n嫉妬深く、へらへらとした性格",
+      "quotations": "「そこの天使さん、ボクとお茶しない？」",
+      "CP": {
+        "name": "アルカナ",
+        "description": "堕天使"
+      },
+      "siblings": null
+    },
+    {
+      "image_length": 1,
+      "name": "百鬼 春",
+      "Furigana": "Nakiri syun",
+      "color": "#c9171e",
+      "age": "17",
+      "birthday": "不明（覚えてない）",
+      "height": "181cm",
+      "job": "学生/マフィアのボス",
+      "Species": "人間",
+      "UkeSeme": "攻",
+      "verse": null,
+      "description": "度を越したヤク中\n脳みそがすり減り、まともな思考ができなくなっている\n性格はとても犬っぽく、なんでも口に入れる\n飼い主の花渡 鵺（はなわたり ぬえ）がいないと生きていけない\n鵺様に薬漬けにされているため常に鵺様が近くにいないと実は不安",
+      "quotations": "「薬、、、、いる？」",
+      "CP": {
+        "name": "花渡 鵺",
+        "description": "性別不明\n飼い主"
+      },
+      "siblings": null
+    },
+    {
+      "image_length": 9,
+      "name": "由利 わさび",
+      "Furigana": "Yuri Wasabi",
+      "color": "#8EC298",
+      "age": "18",
+      "birthday": "2/22",
+      "height": "183cm",
+      "job": "学生",
+      "Species": "人間",
+      "UkeSeme": "攻",
+      "verse": null,
+      "description": "猫又のちいが転生した姿\nあんこの転生した姿、敷富 紅（しきとみ こう）の事が大好きで紅以外興味が無い\n学校では王子様モードで生徒と接しているため常に笑顔だが、疲れるため気休めのマスクを常にしている\n素は口が悪く関西弁を喋る とてつもなくモテる",
+      "quotations": "「今度こそ、ずーっと一緒、やな」",
+      "CP": {
+        "name": "敷富 紅",
+        "description": "あんこの転生した姿\n甘いものが好き"
+      },
+      "siblings": null
+    }
+  ]
+}

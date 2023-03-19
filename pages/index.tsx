@@ -3,9 +3,61 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Footer from '@/component/footer'
 import Link from 'next/link'
+import creation from "../data/creation.json"
+import { useEffect } from "react"
 
 
 export default function Home() {
+  const creations = creation.creations.sort((a, b) => {
+    if (a.Furigana > b.Furigana) {
+      return 1;
+    }
+    else {
+      return -1;
+    }
+  })
+
+  function depictionCreations() {
+    let list = [];
+    let index = "0";
+    for (let i = 0; i < creations.length; i++) {
+      const target = creations[i];
+      const imageURL = target.Furigana.split(" ").length === 1 ? `/creations/${target.Furigana.split(" "[0])}/1.JPG` : `/creations/${target.Furigana.split(" ")[0]}_${target.Furigana.split(" ")[1]}/1.JPG`;
+      console.log(imageURL);
+      if (index !== target.Furigana[0]) {
+        index = target.Furigana[0]
+        list.push(<div className={styles.creation_header}>
+          <div className={styles.creation_header_left}>
+            <div className={styles.creation_stick} />
+            <h3 className={styles.creation_index}>{index}</h3>
+          </div>
+          <div className={styles.creation_header_right}><div className={styles.creation_stick} /></div>
+        </div>);
+      }
+      list.push(<Link href="/">
+        <div key={i} className={styles.creation_content}>
+          <div className={styles.creation_content_left}>
+            <div className={styles.creation_image_color} id={"image_color_" + i} />
+            <h4 className={styles.creation_name}>{target.name}{"　"}{target.Furigana}</h4>
+          </div>
+          <div className={styles.creation_content_right}>
+            <Image src={imageURL} layout="fill" objectFit="cover" alt="content image" style={{ borderRadius: "10px" }} quality={1} />
+          </div>
+        </div>
+      </Link>);
+    }
+    return list;
+  }
+
+  useEffect(() => {
+    for (let i = 0; i < creations.length; i++) {
+      const target = creations[i];
+      const imageColor = document.getElementById("image_color_" + i);
+      if (imageColor) {
+        imageColor.style.backgroundColor = target.color;
+      }
+    }
+  })
   return (
     <>
       <Head>
@@ -23,24 +75,7 @@ export default function Home() {
         <div className={styles.creation}>
           <h2 className={styles.creation_title}>Creation</h2>
           <div className={styles.creation_contents}>
-            <div className={styles.creation_header}>
-              <div className={styles.creation_header_left}>
-                <div className={styles.creation_stick} />
-                <h3 className={styles.creation_index}>A</h3>
-              </div>
-              <div className={styles.creation_header_right}><div className={styles.creation_stick} /></div>
-            </div>
-            <Link href="/">
-              <div className={styles.creation_content}>
-                <div className={styles.creation_content_left}>
-                  <div className={styles.creation_image_color} />
-                  <h4 className={styles.creation_name}>茜 Akane</h4>
-                </div>
-                <div className={styles.creation_content_right}>
-                  <Image src="/top_image.jpg" layout="fill" objectFit="cover" alt="content image" style={{ borderRadius: "10px" }} quality={1} />
-                </div>
-              </div>
-            </Link>
+            {depictionCreations()}
           </div>
         </div>
       </main>
