@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import styles from '@/styles/Home.module.css'
 import Footer from '@/component/footer'
 import Link from 'next/link'
@@ -23,7 +23,6 @@ export default function Home() {
     for (let i = 0; i < creations.length; i++) {
       const target = creations[i];
       const imageURL = target.Furigana.split(" ").length === 1 ? `/creations/${target.Furigana.split(" "[0])}/1.JPG` : `/creations/${target.Furigana.split(" ")[0]}_${target.Furigana.split(" ")[1]}/1.JPG`;
-      console.log(imageURL);
       if (index !== target.Furigana[0]) {
         index = target.Furigana[0]
         list.push(<div className={styles.creation_header}>
