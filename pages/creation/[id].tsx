@@ -105,7 +105,7 @@ export default function Creation() {
         <div className={styles.sub_right}>
           <h3 className={styles.sub_name}>兄妹 {target.siblings[i].name}</h3>
             <p className={styles.sub_setting_p}>{target.siblings[i].relationship}</p>
-            <a href='' className={styles.sub_a} >作　しうぐみ(Twitterリンク)</a>
+            <a href='https://twitter.com/siu_gumi' target="_blank" rel="noopener noreferrer" className={styles.sub_a} >作　しうぐみ(Twitterリンク)</a>
         </div>
       </div>)
     }
@@ -181,7 +181,7 @@ export default function Creation() {
         <div className={styles.sub_right}>
           <h3 className={styles.sub_name}>CP {target.CP.name}</h3>
             <p className={styles.sub_setting_p}>{target.CP.description.split(/(\n)/).map((v: string, i: number) => (i & 1 ? <br key={i} /> : v))}</p>
-            <a href='' className={styles.sub_a} >作　しうぐみ(Twitterリンク)</a>
+            <a href='https://twitter.com/siu_gumi' target="_blank" rel="noopener noreferrer" className={styles.sub_a} >作　しうぐみ(Twitterリンク)</a>
         </div>
       </div>}
       {target.siblings && listSiblings()}

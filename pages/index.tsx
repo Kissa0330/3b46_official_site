@@ -104,7 +104,7 @@ export default function Home() {
             fill
             sizes="100vw"
             style={{
-              objectFit: "cover"
+              objectFit: "contain"
             }} /></div>
         <div className={styles.profile_right}>
           <h2 className={styles.profile_h2}>錆白/Sabishiro</h2>
