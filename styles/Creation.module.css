@@ -1,0 +1,109 @@
+.main {
+  background-color: #363633;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  margin-top: 100px;
+  margin-left: 70px;
+}
+
+.image_wrapper {
+  height: 65vh;
+  width: 35vw;
+  position: relative;
+}
+
+.page {
+	display: flex;
+	justify-content: space-around;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.arrow {
+	width: 10px;
+	height: 10px;
+}
+
+.right {
+  margin-top: 50px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image_color {
+  width: 45px;
+  height: 90px;
+  margin-right: 30px;
+  background-color: white;
+}
+
+.name_h1 {
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 10px;
+}
+
+.name_h2 {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 8px;
+}
+
+.profiles {
+  margin-top: 40px;
+}
+
+.profile {
+  margin-top: 15px;
+}
+
+.profile_p {
+  font-weight: 200;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.profile_stick {
+  height: 1px;
+  width: 40vw;
+  background-color: white;
+}
+
+.setting {
+  margin-left: 50px;
+  width: 450px;
+  text-align: left;
+}
+
+.setting_h3 {
+  margin-top: 30px;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.setting_p {
+  margin-top: 10px;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.quotations {
+	text-align: center;
+	margin-left: auto;
+	width: 480px;
+	margin-top: 30px;
+	font-size: 20px;
+	font-weight: 300;
+}

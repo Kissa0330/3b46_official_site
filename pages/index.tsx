@@ -3,7 +3,7 @@ import Image from "next/image"
 import styles from '@/styles/Home.module.css'
 import Footer from '@/component/footer'
 import Link from 'next/link'
-import creation from "../data/creation.json"
+import creation from "@/data/creation.json"
 import { useEffect } from "react"
 
 
@@ -22,41 +22,9 @@ export default function Home() {
     let index = "0";
     for (let i = 0; i < creations.length; i++) {
       const target = creations[i];
-      const imageURL = target.Furigana.split(" ").length === 1 ? `/creations/${target.Furigana.split(" "[0])}/1.JPG` : `/creations/${target.Furigana.split(" ")[0]}_${target.Furigana.split(" ")[1]}/1.JPG`;
-      if (index !== target.Furigana[0]) {
-        index = target.Furigana[0]
-        list.push(
-          <div key={i}><div className={styles.creation_header}>
-            <div className={styles.creation_header_left}>
-              <div className={styles.creation_stick} />
-              <h3 className={styles.creation_index}>{index}</h3>
-            </div>
-            <div className={styles.creation_header_right}><div className={styles.creation_stick} /></div>
-          </div>
-            <Link href="/" key={i}>
-              <div className={styles.creation_content}>
-                <div className={styles.creation_content_left}>
-                  <div className={styles.creation_image_color} id={"image_color_" + i} />
-                  <h4 className={styles.creation_name}>{target.name}{"　"}{target.Furigana}</h4>
-                </div>
-                <div className={styles.creation_content_right}>
-                  <Image
-                    src={imageURL}
-                    alt="content image"
-                    quality={1}
-                    fill
-                    sizes="100vw"
-                    style={{
-                      borderRadius: "10px",
-                      objectFit: "contain"
-                    }} />
-                </div>
-              </div>
-            </Link>
-          </div>);
-        continue;
-      }
-      list.push(<Link href="/" key={i}>
+      const FuriganaArr = target.Furigana.split(" ")
+      const imageURL = FuriganaArr.length === 1 ? `${FuriganaArr[0]}/1.JPG` : `${FuriganaArr[0]}_${FuriganaArr[1]}/1.JPG`;
+      const creation_content = <Link href={`/creation/${target.id}`}>
         <div className={styles.creation_content}>
           <div className={styles.creation_content_left}>
             <div className={styles.creation_image_color} id={"image_color_" + i} />
@@ -64,7 +32,7 @@ export default function Home() {
           </div>
           <div className={styles.creation_content_right}>
             <Image
-              src={imageURL}
+              src={"/creations/" + imageURL}
               alt="content image"
               quality={1}
               fill
@@ -74,7 +42,22 @@ export default function Home() {
               }} />
           </div>
         </div>
-      </Link>);
+      </Link>;
+      if (index !== target.Furigana[0]) {
+        index = target.Furigana[0]
+        list.push(
+          <div key={target.id}><div className={styles.creation_header}>
+            <div className={styles.creation_header_left}>
+              <div className={styles.creation_stick} />
+              <h3 className={styles.creation_index}>{index}</h3>
+            </div>
+            <div className={styles.creation_header_right}><div className={styles.creation_stick} /></div>
+          </div>
+            {creation_content}
+          </div>);
+        continue;
+      }
+      list.push(creation_content);
     }
     return list;
   }
@@ -92,7 +75,7 @@ export default function Home() {
   return <>
     <Head>
       <title>錆白 Official Site</title>
-      <meta name="description" content="Twitterで活動している絵師の錆白のオフィシャルサイトです。創作物の設定などを公開しています。" />
+      <meta name="description" content="Twitterで活動している絵師の錆白のオフィシャルサイトです。創作物の設定などを公開しています。依頼受付中です。" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
     </Head>

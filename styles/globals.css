@@ -12,6 +12,10 @@ img {
 	vertical-align:bottom;
 }
 
+a {
+	text-decoration: none;
+}
+
 a:visited {
 	color: #363633;
 }

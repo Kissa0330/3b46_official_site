@@ -72,6 +72,7 @@
   margin-left: 150px;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 .creation_image_color {
   width: 40px;
@@ -80,6 +81,7 @@
 }
 
 .creation_name {
+  color: white;
   font-size: 40px;
   font-weight: 200;
   margin-left: 25px;

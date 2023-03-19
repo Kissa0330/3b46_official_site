@@ -1,7 +1,8 @@
 {
   "creations": [
     {
-      "image_length": 2,
+      "id": 1,
+      "image_length": 3,
       "name": "茜",
       "Furigana": "Akane",
       "color": "#b7282e",
@@ -12,12 +13,13 @@
       "Species": "鬼",
       "UkeSeme": null,
       "verse": null,
-      "description": "本人曰く、大昔大悪党の鬼神だったらしい\nタナトフィリア（死生愛者）\n現在は封印された後、魂だけ封印から解かれ蘇芳彩斗（すおう あやと）にとりついている\n彩斗のことは、面白い奴だとは思っているがよく馬鹿にされている\n彩斗意外に馬鹿にされるとキレる単細胞で現代のものに疎い性格",
+      "description": "本人曰く、大昔大悪党の鬼神だったらしい\nタナトフィリア（死生愛者）\n現在は封印された後、魂だけ封印から解かれ蘇芳彩斗（すおう あやと）にとりついている\n彩斗のことは、面白い奴だとは思っているがよく馬鹿にされている\n彩斗以外に馬鹿にされるとキレる単細胞で現代のものに疎い性格",
       "quotations": "「俺はばかじゃねぇ！！」",
       "CP": null,
       "siblings": null
     },
     {
+      "id": 2,
 		"image_length": 3,
       "name": "卯ノ花 冬夜",
       "Furigana": "Unohana Toya",
@@ -38,6 +40,7 @@
       "siblings": null
     },
     {
+      "id": 3,
 		"image_length": 1,
       "name": "楝 柘榴",
       "Furigana": "Ouchi Zakuro",
@@ -64,6 +67,7 @@
       ]
     },
     {
+      "id": 4,
 		"image_length": 4,
       "name": "折神 呂彩",
       "Furigana": "Origami Roiro",
@@ -84,7 +88,8 @@
       "siblings": null
     },
     {
-		"image_length": 3,
+      "id": 5,
+		"image_length": 2,
       "name": "燎 透華",
       "Furigana": "Kagari Toka",
       "color": "#493759",
@@ -96,7 +101,7 @@
       "UkeSeme": "攻",
       "verse": "α",
       "description": "白下 月馨（しらした るか）の運命の番\nとても大きな財閥の跡取り\n学校へ行く際はフェロモンに当てられないように強力な薬を服用しているため常に吐き気と眠気と戦っている副作用で香水や食事の香りでしんどくなるので常にマスクをしている\n運命の番であるルカのうなじに歯形はまだつけていない\n死体解体屋は趣味でやっているため深い感情はない",
-      "quotations": "「俺がお前のために妖怪を倒したとでも？自分のストレス発散のためだよ」",
+      "quotations": "「いやなら噛まねぇけど他の雑魚に噛まれるなよ」",
       "CP": {
         "name": "白下 月馨",
         "description": "人間と蜘蛛のハーフ\nΩ"
@@ -104,6 +109,7 @@
       "siblings": null
     },
     {
+      "id": 6,
 		"image_length": 1,
       "name": "鬼柳 ツツジ",
       "Furigana": "Kiyanagi Tutuji",
@@ -124,6 +130,7 @@
       "siblings": null
     },
     {
+      "id": 7,
 		"image_length": 1,
       "name": "神来社 神無",
       "Furigana": "Kanna Karaito",
@@ -144,6 +151,7 @@
       "siblings": null
     },
     {
+      "id": 8,
       "image_length": 2,
       "name": "久墨 喪堕",
       "Furigana": "Kusumi Sota",
@@ -164,6 +172,7 @@
       "siblings": null
     },
     {
+      "id": 9,
       "image_length": 2,
       "name": "斉藤　ちひろ",
       "Furigana": "Saito Chihiro",
@@ -184,6 +193,7 @@
       "siblings": null
     },
     {
+      "id": 10,
       "image_length": 3,
       "name": "白鈴  零也",
       "Furigana": "Shirasuzu Reiya",
@@ -204,6 +214,7 @@
       "siblings": null
     },
     {
+      "id": 11,
       "image_length": 2,
       "name": "蘇芳 彩斗",
       "Furigana": "Suou Ayato",
@@ -221,6 +232,7 @@
       "siblings": null
     },
     {
+      "id": 12,
       "image_length": 3,
       "name": "多々良 澪",
       "Furigana": "Tatara Mio",
@@ -238,6 +250,7 @@
       "siblings": null
     },
     {
+      "id": 22,
       "image_length": 1,
       "name": "橘 結鶴",
       "Furigana": "Tachibana Yuzuru",
@@ -255,6 +268,7 @@
       "siblings": null
     },
     {
+      "id": 13,
       "image_length": 3,
       "name": "玉藻前",
       "Furigana": "Tamamonomae",
@@ -275,6 +289,7 @@
       "siblings": null
     },
     {
+      "id": 14,
       "image_length": 1,
       "name": "ちい",
       "Furigana": "Chii",
@@ -295,6 +310,7 @@
       "siblings": null
     },
     {
+      "id": 15,
       "image_length": 2,
       "name": "月ヶ瀬 狼",
       "Furigana": "Tsukigase Ro",
@@ -315,6 +331,7 @@
       "siblings": null
     },
     {
+      "id": 16,
       "image_length": 2,
       "name": "五月七日 桃龍",
       "Furigana": "Tsuyuri Tori",
@@ -335,6 +352,7 @@
       "siblings": null
     },
     {
+      "id": 17,
       "image_length": 2,
       "name": "濡羽 鳳",
       "Furigana": "Nureba Ageha",
@@ -355,6 +373,7 @@
       "siblings": null
     },
     {
+      "id": 18,
       "image_length": 1,
       "name": "白夜 虎春",
       "Furigana": "Hakuya Koharu",
@@ -366,7 +385,7 @@
       "Species": "人間",
       "UkeSeme": "受",
       "verse": null,
-      "description": null,
+      "description": "Coming Soon...!",
       "CP": {
         "name": "百瀬 獅子",
         "description": "ピンクのライオン担当\n かわいい（こはる目線）"
@@ -374,6 +393,7 @@
       "siblings": null
     },
     {
+      "id": 19,
       "image_length": 1,
       "name": "ベル",
       "Furigana": "Vell",
@@ -394,6 +414,7 @@
       "siblings": null
     },
     {
+      "id": 20,
       "image_length": 1,
       "name": "百鬼 春",
       "Furigana": "Nakiri syun",
@@ -414,6 +435,7 @@
       "siblings": null
     },
     {
+      "id": 21,
       "image_length": 9,
       "name": "由利 わさび",
       "Furigana": "Yuri Wasabi",
